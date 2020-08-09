@@ -14,30 +14,47 @@
 </head>
 
 <body class="body">
+  <h1>Quiz App</h1>
   <div class="container">
-      <p >Q1:- What was the old name of PIA:</p>
-        <div class="row ">
-          <div class=" col-lg-5 col-sm-12  col-md-5" onclick="awnser()" >
-            <input id='q1-a1' type="radio">Independence Airways</input><br>
-          </div>
-          <div class=" col-lg-5 col-sm-12  col-md-5" onclick="check()">
-            <input id='q1-a2' type="radio">Orient Airways</input><br>
-          </div>
-          <div class=" col-lg-5 col-sm-12  col-md-5"onclick="check()">
-            <input id='q1-a3' type="radio">Kolachi Airways</input><br>
-          </div>
-          <div class=" col-lg-5 col-sm-12  col-md-5"onclick="check()">
-            <input id='q1-a4' type="radio">Air Pakistan</input><br>
-          </div>
+    <div class="row ">
+      <div class=" col-lg-12 col-sm-12  col-md-12" onclick="awnser()">
+        <p id="totel_result"></p>
+      </div>
+    </div>
+    <!-- Question NO 1 -->
+    <div class="question">
+      <p class="p">Q1: What was the old name of PIA:</p>
+      <div class="row ">
+        <div class=" col-lg-5 col-sm-12  col-md-5" onclick="awnser()">
+          <button class="btn btn-outline-secondary" id='q1-a1'>(A) Independence Airways</button><br>
+        </div>
+        <div class=" col-lg-5 col-sm-12  col-md-5" onclick="check()">
+          <button class="btn btn-outline-secondary" id='q1-a2' p>(B) Orient Airways</button><br>
+        </div>
+        <div class=" col-lg-5 col-sm-12  col-md-5" onclick="check()">
+          <button class="btn btn-outline-secondary" id='q1-a3' p>(C) Kolachi Airways</button><br>
+        </div>
+        <div class=" col-lg-5 col-sm-12  col-md-5" onclick="check()">
+          <button class="btn btn-outline-secondary" id='q1-a4' p>(D) Air Pakistan</button><br>
+        </div>
+      </div>
+      <div class="row qresult " >
+        <div class="col-12" >
+          <p id="ans1"></p>
         </div>
       </div>
 
-
+      
+    </div>
   </div>
+
+
+
+<!-- 
   <center>
     <button onclick="check()">Result</button>
   </center>
-
+ -->
 
 
   <!-- Optional JavaScript -->
